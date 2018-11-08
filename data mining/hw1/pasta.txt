@@ -1,0 +1,50 @@
+tomato souce = 1 [ Mode: 1 ] 
+	tunny = 1 [ Mode: 1 ] => 1 
+	tunny = 0 [ Mode: 1 ] 
+		rice = 1 [ Mode: 1 ] => 1 
+		rice = 0 [ Mode: 0 ] 
+			brioches = 1 [ Mode: 1 ] => 1 
+			brioches = 0 [ Mode: 0 ] 
+				frozen vegetables = 1 [ Mode: 1 ] => 1 
+				frozen vegetables = 0 [ Mode: 0 ] 
+					coffee = 1 [ Mode: 1 ] => 1 
+					coffee = 0 [ Mode: 0 ] => 0 
+tomato souce = 0 [ Mode: 0 ] 
+	rice = 1 [ Mode: 0 ] 
+		coffee = 1 [ Mode: 1 ] => 1 
+		coffee = 0 [ Mode: 0 ] 
+			biscuits = 1 [ Mode: 1 ] => 1 
+			biscuits = 0 [ Mode: 0 ] 
+				coke = 1 [ Mode: 1 ] => 1 
+				coke = 0 [ Mode: 0 ] => 0 
+	rice = 0 [ Mode: 0 ] 
+		tunny = 1 [ Mode: 0 ] => 0 
+		tunny = 0 [ Mode: 0 ] 
+			oil = 1 [ Mode: 0 ] => 0 
+			oil = 0 [ Mode: 0 ] 
+				water = 1 [ Mode: 0 ] => 0 
+				water = 0 [ Mode: 0 ] 
+					milk = 1 [ Mode: 0 ] => 0 
+					milk = 0 [ Mode: 0 ] 
+						yoghurt = 1 [ Mode: 0 ] => 0 
+						yoghurt = 0 [ Mode: 0 ] 
+							coke = 1 [ Mode: 0 ] => 0 
+							coke = 0 [ Mode: 0 ] 
+								biscuits = 1 [ Mode: 0 ] => 0 
+								biscuits = 0 [ Mode: 0 ] 
+									brioches = 1 [ Mode: 0 ] => 0 
+									brioches = 0 [ Mode: 1 ] 
+										coffee = 1 [ Mode: 0 ] => 0 
+										coffee = 0 [ Mode: 1 ] 
+											frozen vegetables = 1 [ Mode: 0 ] => 0 
+											frozen vegetables = 0 [ Mode: 1 ] 
+												beer = 1 [ Mode: 0 ] => 0 
+												beer = 0 [ Mode: 1 ] 
+													juices = 1 [ Mode: 0 ] => 0 
+													juices = 0 [ Mode: 1 ] 
+														mozzarella = 1 [ Mode: 0 ] => 0 
+														mozzarella = 0 [ Mode: 1 ] 
+															crackers = 1 [ Mode: 0 ] => 0 
+															crackers = 0 [ Mode: 1 ] 
+																frozen fish = 1 [ Mode: 0 ] => 0 
+																frozen fish = 0 [ Mode: 1 ] => 1 
